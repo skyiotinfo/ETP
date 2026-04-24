@@ -2,7 +2,7 @@ import React, { useEffect, useState, useCallback } from "react";
 import MotorBox from "./components/MotorBox";
 import Tank from "./components/Tank";
 import { PipeH, PipeV } from "./components/Pipeline";
-import { fetchMotorData, MotorRecord } from "./services/supabaseService";
+import { fetchMotorData} from "./services/supabaseService";
 import { MotorState } from "./types/MotorTypes";
 import "./styles/dashboard.css";
 
